@@ -1,0 +1,30 @@
+body{
+  overflow-x: hidden;
+}
+.icons{
+  margin-left: 10px;
+  padding: 10px;
+}
+.icons:hover{
+   background-color: rgb(236, 236, 236);
+   border-radius: 180px;
+}
+.dropDownMenu{
+  position: absolute;
+  list-style: none;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  padding-left: 20px;
+}
+.dropDownMenu li{
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+  box-shadow: 10px;
+  text-align: end;
+  width: 200px;
+  margin: 0px;
+}
+.dropDownMenu li:hover{
+  background-color: rgb(58, 58, 58);
+  cursor: pointer;
+}
